@@ -1,0 +1,15 @@
+Paso 4: Instalación de WebLogic 12c Infrastructure (12.2.1.2.0)
+f)
+cd C:\Program Files\Java\jdk1.8.0_341\bin
+java -jar -d64 c:\instaladores\weblogic12c\fmw_12.2.1.3.0_infrastructure.jar
+
+paso 7;
+cd C:\app\Middleware\Oracle_Home\oracle_common\bin
+rcu.bat
+
+i)
+C:\app\Middleware\Oracle_Home\oracle_common\common\bin
+
+
+CFGFWK-64254: Se ha producido un error en la ejecución de la fase "OPSS en Proceso"
+Se ha encontrado un error: oracle.security.opss.tools.lifecycle.LifecycleException: Error al configurar el almacén de seguridad de la base de datos. Excepción oracle.security.opss.tools.lifecycle.LifecycleException: JPS-00260: Error de acceso a la base de datos. Estado SQL: 42000, código de error: 942..
